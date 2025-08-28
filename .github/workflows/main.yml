@@ -1,4 +1,4 @@
-install: pnpm install
-dev: pnpm run dev
-build: pnpm run build
+install: pnpm-lock install
+dev: pnpm-lock run dev
+build: pnpm-lock run build
 build_path: dist
